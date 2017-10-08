@@ -1,0 +1,12 @@
+name: mymtcars
+title: mymtcars
+username:
+account: cheuktingho
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 223019
+bundleId: 1016180
+url: https://cheuktingho.shinyapps.io/mymtcars/
+when: 1507478085.78542
+asMultiple: FALSE
+asStatic: FALSE
