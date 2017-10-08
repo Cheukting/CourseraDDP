@@ -4,4 +4,4 @@ This is a shiny application with associated supporting documentation which guide
 
 To access the app: https://cheuktingho.shinyapps.io/mymtcars/
 
-* this is part of the Peer-graded Assignment of the Coursera Course Project of Shiny Application and Reproducible Pitch
+* this is part of the Peer-graded Assignment of the Coursera Course Project of Shiny Application and Reproducible Pitch *
