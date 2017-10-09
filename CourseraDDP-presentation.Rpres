@@ -1,0 +1,41 @@
+CourseraDDP-presentation
+========================================================
+author: Cheuk T Ho
+date: 08/10/2017
+autosize: true
+
+Predict MPG from Horsepower
+========================================================
+
+Ever wonder if your car use more petrol then it should? Wonder how does it compare to other cars. Now with this app you dont have to be a data sciencetist to be able to predict the MPG (miles per gallon) of your car.
+
+You only need to know:
+
+- the horse power of your car
+- (optional) the number of cylinder of your car
+
+The Data Set
+========================================================
+
+To predict, the "mtcars" data set is used:
+
+```{r echo=FALSE}
+head(mtcars)
+```
+
+View data in a plot: MPG vs Horsepower
+========================================================
+
+```{r, echo=FALSE}
+plot(mtcars$hp, mtcars$mpg, ylab = "Miles Per Gallon", 
+     xlab = "Horsepower", bty = "n", pch = 16, col=factor(mtcars$cyl),
+     ylim = c(10, 35), xlim = c(50, 350))
+```
+
+The App
+========================================================
+There are relations among the mpg, horsepower and number of cylinders so we can predict one from anothers. The models used in the app is linear regression. 
+
+However, you dont have to know how to do linear regression, simply imput the features of your car in the app:
+
+https://cheuktingho.shinyapps.io/mymtcars/
